@@ -1050,3 +1050,28 @@ figcaption{
 li{
     padding: 10px;
 }
+a:hover{
+    transform: scale(1.08);
+}
+h2{
+    font-size: 26px;
+    font-weight: 500;
+}
+@media (max-width: 769px){
+    .h2-section{
+        margin-bottom: 50px;
+    }
+    .row.tight-width-whitespace.portfolio-row{
+        margin: 0;
+    }
+    .row.tight-width-whitespace.portfolio-row a{
+        display: flex;
+        justify-content: center;
+    }
+    .row.tight-width-whitespace.portfolio-row h2{
+        margin: 5px 0;
+    }
+    .row.tight-width-whitespace.portfolio-row p{
+        margin-bottom: 40px;
+    }
+}

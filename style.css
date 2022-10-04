@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #363636!important;
+    color: #1b1b1b!important;
 }
 
 .container {
@@ -1039,4 +1039,11 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+blockquote{
+    color: #2a2a2a;
+}
+figcaption{
+    color: #2a2a2a;
 }
